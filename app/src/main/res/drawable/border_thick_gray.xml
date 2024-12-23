@@ -4,7 +4,7 @@
 
     <!-- Define the border thickness -->
     <stroke
-        android:color="#808080"
+        android:color="#0A0708"
         android:width="4dp" />     <!-- Border Thickness -->
 
     <!-- Set the corner radius for rounded edges (optional) -->

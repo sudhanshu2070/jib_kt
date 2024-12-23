@@ -4,24 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="0dp"
-    android:paddingBottom="0dp">
+    android:paddingBottom="0dp"
+    android:background="#B1B1B1">
 
     <!-- Horizontal ScrollView containing the status items -->
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:scrollbars="horizontal"
         android:paddingTop="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/border_thick_gray">
+        android:background="@color/scrollViewBackgroundColor">
 
         <!-- LinearLayout to arrange items horizontally -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="15dp">
 
             <!-- Each item, in this case TextViews for each status -->
             <TextView
@@ -31,7 +32,7 @@
                 android:text="Awaiting"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/button_background"
                 android:clickable="true"
@@ -44,7 +45,7 @@
                 android:text="Assigned"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/button_background"
                 android:clickable="true"
@@ -57,7 +58,7 @@
                 android:text="Re-Assigned"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/button_background"
                 android:clickable="true"
@@ -70,7 +71,7 @@
                 android:text="Raised"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/button_background"
                 android:clickable="true"
@@ -83,7 +84,7 @@
                 android:text="Declined"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/button_background"
                 android:clickable="true"

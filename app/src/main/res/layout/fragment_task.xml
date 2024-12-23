@@ -2,15 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp">
 
     <!-- Horizontal ScrollView containing the status items -->
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="horizontal"
-        android:layout_marginTop="8dp"
-        android:background="#FFFFFF">
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border_thick_gray">
 
         <!-- LinearLayout to arrange items horizontally -->
         <LinearLayout
@@ -102,7 +106,6 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is Task Fragment"
         android:textSize="24sp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"

@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_task"
         android:name="com.example.iasset_mobile.ui.task.TaskFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_task"
         tools:layout="@layout/fragment_task" />
 
     <fragment

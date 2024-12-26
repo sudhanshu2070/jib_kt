@@ -8,12 +8,36 @@
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp">
 
-    <TextView
-        android:id="@+id/moduleName"
+    <!-- LinearLayout for horizontal arrangement -->
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
         android:padding="16dp"
-        android:text="Module Name"
-        tools:text="Module Sample" />
+        android:gravity="center_vertical">
+
+
+        <!-- ImageView for the icon on the right -->
+        <ImageView
+            android:id="@+id/moduleIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_lock_open_24"
+            android:contentDescription="Module Icon"/>
+
+        <!-- TextView for the module name -->
+        <TextView
+            android:id="@+id/moduleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Module Name"
+            android:layout_weight="1"
+            tools:text="Module Sample"
+            android:layout_marginStart="8dp" />
+
+
+
+    </LinearLayout>
+
 </androidx.cardview.widget.CardView>

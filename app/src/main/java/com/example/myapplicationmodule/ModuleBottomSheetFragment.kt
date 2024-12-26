@@ -19,13 +19,13 @@ class ModuleBottomSheetFragment : BottomSheetDialogFragment() {
     private lateinit var recyclerView: RecyclerView
 
     private val moduleList = listOf(
-        Module("Module 1", R.drawable.ic_baseline_construction_24),
-        Module("Module 2", R.drawable.ic_baseline_lock_open_24),
-        Module("Module 3", R.drawable.ic_baseline_energy_savings_leaf_24),
-        Module("Module 4", R.drawable.ic_baseline_lock_open_24),
-        Module("Module 5", R.drawable.ic_baseline_lock_open_24),
-        Module("Module 6", R.drawable.ic_baseline_lock_open_24),
-        Module("Module 7", R.drawable.ic_baseline_lock_open_24),
+        Module("Site Activity", R.drawable.ic_baseline_construction_24),
+        Module("Asset Movement", R.drawable.ic_baseline_lock_open_24),
+        Module("Access Management", R.drawable.ic_baseline_energy_savings_leaf_24),
+        Module("HSSE", R.drawable.ic_baseline_lock_open_24),
+        Module("Enery", R.drawable.ic_baseline_lock_open_24),
+        Module("Alarm Management", R.drawable.ic_baseline_lock_open_24),
+        Module("Lease", R.drawable.ic_baseline_lock_open_24),
         Module("Module 8", R.drawable.ic_baseline_lock_open_24),
         Module("Module 9", R.drawable.ic_baseline_lock_open_24),
         Module("Module 10", R.drawable.ic_baseline_lock_open_24)

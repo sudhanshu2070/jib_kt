@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-//import com.example.
 
 class ModuleAdapter(private val moduleList: List<Module>) : RecyclerView.Adapter<ModuleAdapter.ModuleViewHolder>() {
 

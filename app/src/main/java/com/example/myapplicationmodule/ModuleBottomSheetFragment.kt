@@ -16,7 +16,10 @@ class ModuleBottomSheetFragment : BottomSheetDialogFragment() {
 
     private lateinit var closeButton: ImageView
     private lateinit var recyclerView: RecyclerView
-    private val moduleList = listOf("Module A", "Module B", "Module C", "Module D", "Module E", "Module F","Module G", "Module H","Module B", "Module C", "Module D", "Module E", "Module F","Module G", "Module H") // Your modules
+    private val moduleList = listOf("Module 1", "Module 2", "Module 3", "Module 4", "Module 5",
+        "Module 6", "Module 7", "Module 8", "Module 9", "Module 10",
+        "Module 11", "Module 12", "Module 13", "Module 14", "Module 15",
+        "Module 16", "Module 17", "Module 18", "Module 19", "Module 20"); // Your modules
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
